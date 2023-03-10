@@ -1,0 +1,53 @@
+:root {
+    --gray: #D8D8D8;
+    --orange: #f96d00;
+    --dark-gray: #484848;
+    --white: #fff;
+    --sky-blue: #00bbf0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+   color: var(--white); 
+   text-align: center;
+   border-collapse: collapse;
+   font: normal 3em Arial, Halvertica, sans-serif;
+}
+
+tr {
+    height: 16.02vh;
+    background-color: var(--dark-gray);
+
+}
+
+td {
+    width: 25vw;
+    border: 1px solid var(--dark-gray);
+    
+}
+
+#inputBox {
+    background-color: var(--dark-gray);
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: var(--white);
+    border: 0px;
+}
+
+.digitButton {
+    background-color: var(--gray);
+}
+
+.operatorButton {
+    background-color: var(--sky-blue);
+}
+
+.ACButton {
+    background-color: #656165;
+}
